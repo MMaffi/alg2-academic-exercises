@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* Protótipo da função */
 int soma_digitos(int n);
 
 int main(void) {
@@ -16,6 +17,7 @@ int main(void) {
     return 0;
 }
 
+/* Declaração da função */
 int soma_digitos(int n) {
     if (n == 0) {
         return 0;
