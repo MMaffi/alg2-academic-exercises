@@ -83,7 +83,7 @@ reg_horario le_hora() {
 
 void escreve_hora( reg_horario hora ) {
 
-    printf("A data digitada formatada é: ");
+    printf("A hora digitada formatada é: ");
     printf("%02d:%02d:%02d\n", hora.hora, hora.minuto, hora.segundo);
 
 }
